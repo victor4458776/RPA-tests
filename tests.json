@@ -1,0 +1,217 @@
+{
+  "Name": "tests-RPA",
+  "CreationDate": "2023-10-4",
+  "Commands": [
+    {
+      "Command": "open",
+      "Target": "https://demoqa.com/",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"app\"]/div/div/div[2]/div/div[2]/div/div[3]",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"app\"]/div/div/div[2]/div/div[2]/div/div[3]",
+        "xpath=//div[2]/div/div[3]",
+        "css=#app > div > div > div.home-body > div > div:nth-child(2) > div > div.card-body"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"app\"]/div/div/div[2]/div/div/div/div[4]/span/div/div",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"app\"]/div/div/div[2]/div/div/div/div[4]/span/div/div",
+        "xpath=//div[4]/span/div/div",
+        "css=#app > div > div > div.row > div:nth-child(1) > div > div > div:nth-child(4) > span > div > div.header-text"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//div[4]/div/ul/li[2]",
+      "Value": "",
+      "Targets": [
+        "id=item-1",
+        "xpath=//*[@id=\"item-1\"]",
+        "xpath=//div[4]/div/ul/li[2]",
+        "css=#item-1"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"autoCompleteMultipleContainer\"]/div/div",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"autoCompleteMultipleContainer\"]/div/div",
+        "xpath=//div[2]/div[2]/div[2]/div/div/div/div/div/div",
+        "css=#autoCompleteMultipleContainer > div > div.auto-complete__value-container.auto-complete__value-container--is-multi.css-1hwfws3"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "click // id=react-select-2-option-0",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"autoCompleteSingleContainer\"]/div/div",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"autoCompleteSingleContainer\"]/div/div",
+        "xpath=//div[2]/div[2]/div[2]/div[2]/div/div/div/div/div",
+        "css=#autoCompleteSingleContainer > div > div.auto-complete__value-container.css-1hwfws3"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "click // id=react-select-3-option-0",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"autoCompleteMultipleContainer\"]/div/div",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"autoCompleteMultipleContainer\"]/div/div",
+        "xpath=//div[2]/div[2]/div[2]/div/div/div/div/div/div",
+        "css=#autoCompleteMultipleContainer > div > div.auto-complete__value-container.auto-complete__value-container--is-multi.css-1hwfws3"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"autoCompleteContainer\"]/div[2]/div",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"autoCompleteContainer\"]/div[2]/div",
+        "xpath=//div[2]/div[2]/div[2]/div[2]/div",
+        "css=#autoCompleteContainer > div:nth-child(2) > div"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"autoCompleteMultipleContainer\"]/div/div",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"autoCompleteMultipleContainer\"]/div/div",
+        "xpath=//div[2]/div[2]/div[2]/div/div/div/div/div/div",
+        "css=#autoCompleteMultipleContainer > div > div.auto-complete__value-container.auto-complete__value-container--is-multi.auto-complete__value-container--has-value.css-1hwfws3"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"autoCompleteSingleContainer\"]/div/div",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"autoCompleteSingleContainer\"]/div/div",
+        "xpath=//div[2]/div[2]/div[2]/div[2]/div/div/div/div/div",
+        "css=#autoCompleteSingleContainer > div > div.auto-complete__value-container.css-1hwfws3"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"autoCompleteSingleContainer\"]/div/div",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"autoCompleteSingleContainer\"]/div/div",
+        "xpath=//div[2]/div[2]/div[2]/div[2]/div/div/div/div/div",
+        "css=#autoCompleteSingleContainer > div > div.auto-complete__value-container.auto-complete__value-container--has-value.css-1hwfws3"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"autoCompleteSingleContainer\"]/div/div",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"autoCompleteSingleContainer\"]/div/div",
+        "xpath=//div[2]/div[2]/div[2]/div[2]/div/div/div/div/div",
+        "css=#autoCompleteSingleContainer > div > div.auto-complete__value-container.auto-complete__value-container--has-value.css-1hwfws3"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//div[4]/div/ul/li[3]/span",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"item-2\"]/span",
+        "xpath=//div[4]/div/ul/li[3]/span",
+        "css=#item-2 > span"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=datePickerMonthYearInput",
+      "Value": "",
+      "Targets": [
+        "id=datePickerMonthYearInput",
+        "xpath=//*[@id=\"datePickerMonthYearInput\"]",
+        "xpath=//input[@id='datePickerMonthYearInput']",
+        "xpath=//input",
+        "css=#datePickerMonthYearInput"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"datePickerMonthYear\"]/div[2]/div[2]/div/div/div[2]/div[2]/div/div[3]",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"datePickerMonthYear\"]/div[2]/div[2]/div/div/div[2]/div[2]/div/div[3]",
+        "xpath=//div[2]/div[2]/div/div[3]",
+        "css=#datePickerMonthYear > div.react-datepicker__tab-loop > div.react-datepicker-popper > div > div > div.react-datepicker__month-container > div.react-datepicker__month > div:nth-child(1) > div.react-datepicker__day.react-datepicker__day--003"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=dateAndTimePickerInput",
+      "Value": "",
+      "Targets": [
+        "id=dateAndTimePickerInput",
+        "xpath=//*[@id=\"dateAndTimePickerInput\"]",
+        "xpath=//input[@id='dateAndTimePickerInput']",
+        "xpath=//div[2]/div[2]/div/div/input",
+        "css=#dateAndTimePickerInput"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"dateAndTimePicker\"]/div[2]/div[2]/div/div/div[3]/div[2]/div/ul/li[93]",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"dateAndTimePicker\"]/div[2]/div[2]/div/div/div[3]/div[2]/div/ul/li[93]",
+        "xpath=//li[93]",
+        "css=#dateAndTimePicker > div.react-datepicker__tab-loop > div.react-datepicker-popper > div > div > div.react-datepicker__time-container > div.react-datepicker__time > div > ul > li:nth-child(93)"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "selectWindow // tab=-3",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "selectWindow",
+      "Target": "tab=0",
+      "Value": "",
+      "Description": ""
+    }
+  ]
+}
