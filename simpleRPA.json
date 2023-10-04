@@ -1,0 +1,116 @@
+{
+  "Name": "RPA-work",
+  "CreationDate": "2023-10-4",
+  "Commands": [
+    {
+      "Command": "open",
+      "Target": "https://demoqa.com/text-box",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=userEmail",
+      "Value": "",
+      "Targets": [
+        "id=userEmail",
+        "xpath=//*[@id=\"userEmail\"]",
+        "xpath=//input[@id='userEmail']",
+        "xpath=//div[2]/div[2]/input",
+        "css=#userEmail"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=userEmail",
+      "Value": "victoralonsogarcia8@gmail.com",
+      "Targets": [
+        "id=userEmail",
+        "xpath=//*[@id=\"userEmail\"]",
+        "xpath=//input[@id='userEmail']",
+        "xpath=//div[2]/div[2]/input",
+        "css=#userEmail"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=currentAddress",
+      "Value": "",
+      "Targets": [
+        "id=currentAddress",
+        "xpath=//*[@id=\"currentAddress\"]",
+        "xpath=//textarea[@id='currentAddress']",
+        "xpath=//textarea",
+        "css=#currentAddress"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=currentAddress",
+      "Value": "street view 4",
+      "Targets": [
+        "id=currentAddress",
+        "xpath=//*[@id=\"currentAddress\"]",
+        "xpath=//textarea[@id='currentAddress']",
+        "xpath=//textarea",
+        "css=#currentAddress"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=permanentAddress",
+      "Value": "",
+      "Targets": [
+        "id=permanentAddress",
+        "xpath=//*[@id=\"permanentAddress\"]",
+        "xpath=//textarea[@id='permanentAddress']",
+        "xpath=//div[4]/div[2]/textarea",
+        "css=#permanentAddress"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=permanentAddress",
+      "Value": "",
+      "Targets": [
+        "id=permanentAddress",
+        "xpath=//*[@id=\"permanentAddress\"]",
+        "xpath=//textarea[@id='permanentAddress']",
+        "xpath=//div[4]/div[2]/textarea",
+        "css=#permanentAddress"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=permanentAddress",
+      "Value": "street views",
+      "Targets": [
+        "id=permanentAddress",
+        "xpath=//*[@id=\"permanentAddress\"]",
+        "xpath=//textarea[@id='permanentAddress']",
+        "xpath=//div[4]/div[2]/textarea",
+        "css=#permanentAddress"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=submit",
+      "Value": "",
+      "Targets": [
+        "id=submit",
+        "xpath=//*[@id=\"submit\"]",
+        "xpath=//button[@id='submit']",
+        "xpath=//div/button",
+        "css=#submit"
+      ],
+      "Description": ""
+    }
+  ]
+}
